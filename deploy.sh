@@ -8,7 +8,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # pindah ke direktori render
 cd public
 # tambahkan perubahan ke Git
-git add -A
+git add .
 
 # Buat sebuah commit baru
 msg=":rocket: rebuilding site `date`"
